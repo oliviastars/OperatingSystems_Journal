@@ -1,18 +1,24 @@
 #Week 1: System Planning and Distribution Selection
 
-Overview : 
+**Overview** : 
+
 This week I learnt the fundamentals of Linux servers and virtual machines. I was able to successfully download Ubuntu Server, create my two virtual machines: one as a workstation and another as a headless server. From here I was able to successfully connect the workstation to the server by using the SSH protocol. 
 
-Distribution Selection Justification:
+**Distribution Selection Justification:**
+
 I chose to use Ubuntu servers because it is known to work well with beginners, it was recommended in the coursework brief and compared to distro's such as Debian, it is a newer package.
 
-Workstation Configuration Decision:
-By using Ubuntu Desktop virtual machines, I am able to use Linux tools and experiment on the virtual machine while keeping my personal laptop safe from any malfunctions. 
+**Workstation Configuration Decision:**
 
-1) System Architecture Diagram:
+By using Ubuntu Desktop virtual machines, I am able to use Linux tools and experiment on the virtual machine while keeping my personal laptop safe.
+
+**System Architecture Diagram:**
+
    <img width="1061" height="271" alt="image" src="https://github.com/user-attachments/assets/2f05df5f-0889-4211-8632-ce6ff3e74108" />
 
-Network Configuration:
+
+**Network Configuration:**
+
 The virtual machine 'Operating Systems' was given two network adapters (1&2), the second network adapter is a 'host-only', which allows it to connect to the headless server I created.
 
 <img width="1890" height="1060" alt="image" src="https://github.com/user-attachments/assets/23a0792b-9b38-4f38-9d83-9c81233bd5f1" />
@@ -21,7 +27,10 @@ The virtual machine 'Operating Systems' was given two network adapters (1&2), th
 <img width="1890" height="1012" alt="image" src="https://github.com/user-attachments/assets/773fd44e-6a5f-487c-85c6-585cf5f622fb" />
 
 
-Learning Notes:
+
+
+***Learning Notes:***
+
 
 SSH --> an encrypted protocol for accessing and mainaging remote systems (such as a server over the internet)
 
