@@ -6,7 +6,7 @@ This week I learnt the fundamentals of Linux servers and virtual machines. I was
 
 **Distribution Selection Justification:**
 
-I chose to use Ubuntu servers because it is known to work well with beginners, it was recommended in the coursework brief and compared to distro's such as Debian, it is a newer package.
+I chose to use Ubuntu servers because it is known to work well with beginners, it was recommended in the coursework brief and compared to distributions such as Debian, it is a newer package.
 
 **Workstation Configuration Decision:**
 
@@ -33,7 +33,7 @@ Now that both the virtual machine and the headless server have the correct netwo
 <img width="1277" height="1525" alt="image" src="https://github.com/user-attachments/assets/69654c77-23ac-4239-aef3-28b3eeed3a82" />
 
 At the bottom of the image we're able to see that the servers IP address is: 192.168.56.103
-From here, I then connected the virtual machine 'Operating Systems' to the headless server by using the SSH protocol and managed to succesfully logged in with the servers password:
+From here, I then connected the virtual machine 'Operating Systems' to the headless server by using the SSH protocol and managed to successfully logged in with the servers password:
 
 <img width="712" height="457" alt="image" src="https://github.com/user-attachments/assets/54159051-d292-450d-9528-c7310bfbb00c" />
 
