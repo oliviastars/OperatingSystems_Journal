@@ -37,7 +37,8 @@ From here, I then connected the virtual machine 'Operating Systems' to the headl
 
 <img width="712" height="457" alt="image" src="https://github.com/user-attachments/assets/54159051-d292-450d-9528-c7310bfbb00c" />
 
-Now that I am able to work on the headless server through the virtual machine, I ran some basic command line code, as specifised in the courswork brief: 
+From the screenshot above it shows a secure SSH session from the work station to server. This also shows that the server is reachable over a private virtual network and below i will demonstrate how remote commands (taken from assignment brief) are able to be executed in the server via the SSH session:
+
 
 <img width="884" height="735" alt="image" src="https://github.com/user-attachments/assets/5a9e2416-49b8-4227-a630-d7905eb80cb1" />
 
