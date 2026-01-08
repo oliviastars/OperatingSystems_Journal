@@ -27,6 +27,25 @@ The virtual machine 'Operating Systems' was given two network adapters (1&2), th
 <img width="1890" height="1012" alt="image" src="https://github.com/user-attachments/assets/773fd44e-6a5f-487c-85c6-585cf5f622fb" />
 
 
+Now that both the virtual machine and the headless server have the correct network adapters, the next step is to get the ip address of the server using the 'ip addr' command:
+
+
+<img width="1277" height="1525" alt="image" src="https://github.com/user-attachments/assets/69654c77-23ac-4239-aef3-28b3eeed3a82" />
+
+At the bottom of the image we're able to see that the servers IP address is: 192.168.56.103
+From here, I then connected the virtual machine 'Operating Systems' to the headless server by using the SSH protocol and managed to succesfully logged in with the servers password:
+
+<img width="712" height="457" alt="image" src="https://github.com/user-attachments/assets/54159051-d292-450d-9528-c7310bfbb00c" />
+
+Now that I am able to work on the headless server through the virtual machine, I ran some basic command line code, as specifised in the courswork brief: 
+
+<img width="884" height="735" alt="image" src="https://github.com/user-attachments/assets/5a9e2416-49b8-4227-a630-d7905eb80cb1" />
+
+<img width="876" height="732" alt="image" src="https://github.com/user-attachments/assets/a13304a3-1994-43ed-80c3-16fcd51beeac" />
+
+As seen above, this week I successfully managed to connect a workstation to a server and I began to further expand my knowlegde of specific command lines.
+
+
 
 
 ***Learning Notes:***
@@ -34,8 +53,17 @@ The virtual machine 'Operating Systems' was given two network adapters (1&2), th
 
 SSH --> an encrypted protocol for accessing and mainaging remote systems (such as a server over the internet)
 
-Command line to connect to server: ssh(WorkStationName)@192.168.56.xxx 
-This command line connects the servers 'home address' to the workstation. 
+Command line to connect to server: ssh (WorkStationName)@192.168.56.xxx 
+^This command line connects the servers 'home address' to the workstation. 
+
+uname - a --> shows the kernel name and the version
+
+free -h --> shows the ram usage and memory management
+
+df -h --> shows the disk usage and filesystem layout 
+
+lsb_release --> shows the linux distribution (Ubuntu)
+
 
 
 
