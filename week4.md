@@ -1,4 +1,4 @@
-# Week 4: Initial Systme Configuration & Security Implementation
+# Week 4: Initial System Configuration & Security Implementation
 
 This week I will be deploying my server and implementing foundational security controls.
 The current server was operating on default installation settings and has not undergone security hardening.
