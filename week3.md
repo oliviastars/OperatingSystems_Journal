@@ -1,8 +1,8 @@
-#**Week 3: Application Selection for Performance Testing**#
+# **Week 3: Application Selection for Performance Testing**
 
 This week I will be selecting applications to represent the different workload types for perfromance evaluation.
 
-**Application Selection:**
+### **Application Selection:**
 
 **stress-ng:** is a command-line workload generation tool that was designed to put stress on different system resources, to help analyse how the operating system behaves under load and how resources are schedules and managed.
 This will be the main tool used to help evaluate the systems performance when it is put under the stress of workloads.  
@@ -16,7 +16,13 @@ This will be the main tool used to help evaluate the systems performance when it
 |Network-intensive|stress-ng|Generates network activity to identify network utilisation and the systems response.|
 
 
-**In**
+**Installation Documentation**
+
+All applications are to be installed remotely via the SSH from the workstation. Below the stress-ng was installed using the system package manager and command lines:
+
+
+
+
 
 
 
