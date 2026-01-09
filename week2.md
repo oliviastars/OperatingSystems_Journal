@@ -1,4 +1,4 @@
-## Week 2: Security Planning & Testing Methodology ##
+# Week 2: Security Planning & Testing Methodology 
 
 This week I will be designing a security baseline and performance testing methodology. From this task I will be learning how to think like a systems administrator and design a secure system. To do this efficiently, it is important to firstly understand the threats and how to prevent them. 
 
