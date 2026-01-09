@@ -18,7 +18,19 @@ This will be the main tool used to help evaluate the systems performance when it
 
 **Installation Documentation**
 
-All applications are to be installed remotely via the SSH from the workstation. Below the stress-ng was installed using the system package manager and command lines:
+All applications are to be installed remotely via the SSH from the workstation 'Operating Systems'. Below the stress-ng was installed using the system package manager and command lines:
+
+'sudo apt install stress-ng' (downloading tool):
+
+<img width="745" height="318" alt="image" src="https://github.com/user-attachments/assets/7c0f39d0-b064-4c23-a9d5-01bd9a57cef0" />
+
+
+
+
+Confirmation of successful download(by checking which version is it):
+
+<img width="831" height="85" alt="image" src="https://github.com/user-attachments/assets/9f80f668-e7fb-4aed-b199-bc7e8b070c06" />
+
 
 
 
