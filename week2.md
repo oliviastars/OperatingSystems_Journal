@@ -13,16 +13,23 @@ The solution below also prevents the threat of having weak or default authentica
 
 **Solutions(Mitigating Strategies):** By performing regular security audits using automated tools such as Lynis. Lynis performs a full security audit of a linux system, checking for: SSH configuration, firewall status, user privilges, file permissions and the system hardening level. By using a tool like Lynis, it greatly prevents missing security controls and any misconfigurations. 
 
+**Threat (3):** Excessive user privileges and improper access control. --> If users are granted more permissions than necessary or if the administrative access is poorly controlled, this means that a compromised account cna lead to full system control. Direct root access (logging into the system as root itself, allowinng user to have full system power) and shared privileged accounts can increase the chances of accidental misconfigurations and malicious action.
+
+**Solutions(Mitigating Strategies):** Disable direct root login (to prevent user from having full power over the system), and instead use a non-root user account for administration. Further security strengthening can be done by applying the principle of least privilage, which grants only the minimum necessary permissions to users and processes. Lastly, by granting sudo access only where required and logging the administrative actions, it allows us to closely monitor security actions, while making threats inside the system easier to detect. 
 
 
 
 
+**Performance and Security Testing Methodology:**
 
-**Performance Testing Plan:**
+Performance testing will be carried out remotely from the workstation using SSH. This approach reflects real world administration practicers, where systems are managed without and graphical interfaces.
 
--From the workstation, I will remotely monitor the servers system using the SSH. This shows that the server is headless and further strengthens my knowlegde of working directly with a server without any graphical interface. 
+-Performance monitoring will be done via Linus command-line tools. The key metrics that will be observed are: CPU usage, memory usage, disk utilisation and network activity. 
 
--Performance monitoring will be done via Linus command-line tools & the metric to be observed will be: CPU usage, disk utiliation, memory usage and network activity.
+-Security testing will also be done alongside performance testing, to ensure controls do no negatively impact the systems behaviour. Automated security auditting tools such as Lynis will be used to identify: misconfigurations, missing controls and hardening opportunities. 
+
+
+-Baseline measurements will be taken initally, with further monitoring to be performed under different workloads in later weeks...likewise with repeating the audit process after implementing security controls to verfiy that issues identified have been addressed. 
 
 
 
