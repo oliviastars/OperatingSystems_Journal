@@ -4,7 +4,7 @@ Below performance testing was conducted on the server via the SSH from the works
 
 ### Baseline Performance:
 
-(inital testing to compare to)
+(initial testing to compare to)
 <img width="896" height="569" alt="image" src="https://github.com/user-attachments/assets/c24fe5b1-1946-4a49-9284-ec78ccf0503c" />
 
 ### CPU Performance:
@@ -30,7 +30,7 @@ Performance remained stable under pressure.
 
 ### Network Performance:
 
-Latency is consistenly low, showing the server is suitable for local network workloads
+Latency is consistently low, showing the server is suitable for local network workloads
 
 ***Stress-ng:***
 <img width="901" height="429" alt="image" src="https://github.com/user-attachments/assets/c8010a68-b928-4920-a986-5e08c2868ce7" />
@@ -58,7 +58,7 @@ System recovered normally after stress tests.
 
 Performance testing identified CPU utilisation as the main **bottleneck**, with load averages increasing significantly during CPU-intense workloads. Memory pressure also increase temporarily under stress, but returned quickly to baseline measurements. Disk I/O and network performance remained stable and didn't present any potential bottlenecks. 
 
-**Recommended improvements** would be reducing system swappiness to optimise memory usage and allocating addictional CPU resourcses to support CPU intense workloads better.
+**Recommended improvements** would be reducing system swappiness to optimise memory usage and allocating addictional CPU resourcses to support CPU intensive workloads better.
 
 
 
