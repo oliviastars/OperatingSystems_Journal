@@ -53,6 +53,9 @@ Below also illustrates how both warnings from the initial test are resolved now:
 
 ## Network Security Assessment (with nmap)
 
+nmap--> Network Mapper, that scans security and shows what parts of the system are reachable.
+
+
 #### Installing nmap:
 
 <img width="943" height="826" alt="image" src="https://github.com/user-attachments/assets/9eb96e48-2f7f-4b83-b88c-9506e5f33e16" />
