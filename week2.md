@@ -26,7 +26,7 @@ Performance testing will be carried out remotely from the workstation using SSH.
 
 -Performance monitoring will be done via Linus command-line tools. The key metrics that will be observed are: CPU usage, memory usage, disk utilisation and network activity. 
 
--Security testing will also be done alongside performance testing, to ensure controls do no negatively impact the systems behaviour. Automated security auditting tools such as Lynis will be used to identify: misconfigurations, missing controls and hardening opportunities. 
+-Security testing will also be done alongside performance testing, to ensure controls do no negatively impact the systems behaviour. Automated security auditting tools such as Lynis will be used to identify: misconfigurations, missing controls and hardening opportunities. Commands like 'nmap' will also be used to perform network security assessments. 'nmap' helps identify ope ports and running services.
 
 
 -Baseline measurements will be taken initally, with further monitoring to be performed under different workloads in later weeks...likewise with repeating the audit process after implementing security controls to verfiy that issues identified have been addressed. 
