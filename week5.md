@@ -53,7 +53,48 @@ fail2ban monitors repeatedly failed authentication attempts and then blocks the 
 
 ## Security baseline verification script
 
-### Creating script file:
+Here I will create a verification script to ensure the minimum security settings are in place, from week 4 and 5. This script will be able to automatically check the system and the specific security configurations written in the script.
+
+### Creating script:
+
+Command 'nano securityscript.sh' was used to create the file on the server. '.sh' was used as the file will need to be executed and contains shell commands:
+
+<img width="895" height="1143" alt="image" src="https://github.com/user-attachments/assets/ff766fc7-2c0d-41a5-a530-00502c7da731" />
+
+
+### Making script ready to execute:
+
+<img width="899" height="288" alt="image" src="https://github.com/user-attachments/assets/4f3d08de-5f40-4db8-9099-3d3cbf9ed6c8" />
+
+
+### Executing Script:
+
+<img width="899" height="849" alt="image" src="https://github.com/user-attachments/assets/18fd035c-501f-4124-801c-8c1ce9bd6619" />
+
+## Creating remote monitory script:
+
+<img width="1276" height="1598" alt="image" src="https://github.com/user-attachments/assets/3a95f0c7-58b7-49bd-9944-919afac8a68a" />
+
+
+
+### Results of Server Monitoring:
+
+<img width="900" height="1133" alt="image" src="https://github.com/user-attachments/assets/0ced49a5-bde6-4fa4-867b-9c5f730144ce" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
