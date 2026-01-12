@@ -13,7 +13,7 @@ This will be the main tool used to help evaluate the systems performance when it
 | CPU-intensive| stress-ng| Creates controlled CPU load to analyse processor scheduling and utilisation.|
 |Memory-intensive|stress-ng|Allocates and uses RAM to observe memory usage and behaviour under pressure.|
 |Disk I/O-intensive|stress-ng|Performs read/write operations to analyse the disks I/O behaviour|
-|Network-intensive|stress-ng|Generates network activity to identify network utilisation and the systems response.|
+|Network-intensive|stress-ng / ping | Stress-ng generates network activity to identify network utilisation and the systems response, while ping measures network latency and packet loss.|
 
 
 **Installation Documentation**
